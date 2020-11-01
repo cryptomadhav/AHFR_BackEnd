@@ -1,4 +1,4 @@
-# AHFR_BackEnd
+# AHFR_Backend
 Automated Handwritten Form Recognition Backend API using Flask
 
 Jupiter notebook is attached. Run it in colab with the model and sample hand filled form.
