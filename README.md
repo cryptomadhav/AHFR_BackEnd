@@ -1,11 +1,16 @@
 # AHFR_Backend
-Automated Handwritten Form Recognition Backend API using Flask.
-Accepts Form Filled image in png format as input. 
+Automated Handwritten Form Recognition Backend API using Flask.</br>
+Accepts Form Filled image in png format as input. Then processes the image using few simple Machine Learning and Computer Vision techniques. Then the processed result is returned in the request call.
+**LIMITATIONS** The flexibility of this project is heavily limited to the following factor:</br>
+1.Image should have perfectly aligned boxes with the x and y axis.</br>
+2.Box borders should be strong and not have any breakage. As those box will not be processed by the filtering logic.</br>
+3.It doesnt results key-value pair results. It only provides the array of the lines of text it recognized.</br>
+4.Doesnt contains any semantics on the field context.</br>
+5.Scanned image should not have consider types of different noise in it(Theres only very little a few OPEN CV filters can do).</br>
 
 ### For Jupyter NoteBook
 Jupiter notebook is attached. Run it in colab with the model and sample hand filled form.</br>
-Input form template is also provided.</br>
-
+Input form image is also provided.</br>
 
 ### For Flask setup
 1.Make sure to install '64bit' Python 3 or above (3.7.4 preferred)</br>
