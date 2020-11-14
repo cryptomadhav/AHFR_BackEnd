@@ -1,6 +1,6 @@
 # Automated Handwritten Form Recognition/ OCR/ Intelligent Text Recognition
 This a an API built using Flask framwork.</br>
-It accepts a Form Filled image in png format as input. Then processes the image using few simple Machine Learning and Computer Vision techniques. Then the processed result is returned in the request call.
+It accepts a Form Filled image in png format as input. Then processes the image using few simple Machine Learning and Computer Vision techniques. Then the processed result is returned in the request call.</br>
 **LIMITATIONS** The flexibility of this project is heavily limited to the following factor:</br>
 1.Image should have perfectly aligned boxes with the x and y axis.</br>
 2.Box borders should be strong and not have any breakage. As those box will not be processed by the filtering logic.</br>
@@ -11,6 +11,7 @@ It accepts a Form Filled image in png format as input. Then processes the image 
 ### For Jupyter NoteBook
 Jupiter notebook is attached. Run it in colab with the model and sample hand filled form.</br>
 Input form image is also provided.</br>
+It is heavily commented and contains all the images for step by step execution.
 
 ### For Flask setup
 1.Make sure to install '64bit' Python 3 or above (3.7.4 preferred)</br>
